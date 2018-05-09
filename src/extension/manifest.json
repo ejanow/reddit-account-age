@@ -1,0 +1,19 @@
+{
+  "name": "Reddit Account Age",
+  "version": "0.0.1",
+  "manifest_version": 2,
+  "description": "Inject Reddit Account Ages to Comment Page",
+  "homepage_url": "http://ericjanowski.com",
+  "background": {
+    "scripts": ["Background.bs.js"],
+    "persistent": true
+  },
+  "browser_action": {
+    "default_title": "Reddit Account Age",
+    "default_popup": "menu.html"
+  },
+  "content_scripts": [{
+    "matches": ["https://www.reddit.com/*"],
+    "js": ["Inject.bs.js"]
+  }]
+}

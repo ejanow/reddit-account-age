@@ -1,0 +1,10 @@
+{
+  "ignore": [
+    "dist/*",
+    ".cache/*",
+    "node_modules/*",
+    "lib/*",
+    "src/web/*",
+    "src/extension/*"
+  ]
+}

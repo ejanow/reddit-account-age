@@ -1,0 +1,72 @@
+html {
+  -webkit-font-smoothing: antialiased;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: lightgrey;
+  border-radius: 3px;
+}
+
+:focus {
+  outline: none;
+}
+
+.donation,
+a,
+p {
+  font-size: 13px;
+  line-height: 1.3;
+}
+
+.container {
+  padding: 16px;
+  padding-bottom: 0;
+  width: 220px;
+}
+
+.title h1 {
+  font-size: 20px;
+  margin: 0;
+}
+
+.credits {
+  margin-bottom: 12px;
+}
+
+.authors {
+  margin-top: 8px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.authors a,
+.authors a:visited,
+.authors a:hover,
+.authors a:active {
+  color: #07C;
+}
+
+.donation {
+  align-items: center;
+  background-color: #416dea;
+  color: #fff;
+  margin-top: 18px;
+  justify-content: center;
+  display: flex;
+  height: 32px;
+  width: 100%;
+  cursor: pointer;
+  user-select: none;
+  transition: all 150ms linear;
+  text-align: center;
+  white-space: nowrap;
+  text-decoration: none !important;
+  text-transform: none;
+  text-transform: capitalize;
+  font-weight: 500;
+  -webkit-appearance: none;
+  box-shadow: 2px 5px 10px #e4e4e4;
+}
+
+.donation:hover {
+  transition: all 150ms linear;
+  opacity: .85;
+}
