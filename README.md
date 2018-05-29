@@ -20,3 +20,7 @@ See the quickstart guide here for installation instructions: https://reasonml.gi
 
 * run `npm run build:ext`
 * Assets are stored in `dist/extension`
+
+## Backend Code
+
+Repository for backend code can be found [here](https://github.com/voxtex/reddit-account-age-backend).

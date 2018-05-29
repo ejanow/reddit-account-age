@@ -12,8 +12,10 @@
     "default_title": "Reddit Account Age",
     "default_popup": "menu.html"
   },
-  "content_scripts": [{
-    "matches": ["https://www.reddit.com/*"],
-    "js": ["Inject.bs.js"]
-  }]
+  "content_scripts": [
+    {
+      "matches": ["https://*.reddit.com/*"],
+      "js": ["Inject.bs.js"]
+    }
+  ]
 }
